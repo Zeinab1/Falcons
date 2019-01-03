@@ -1,0 +1,191 @@
+/*start our basics */
+html{
+	
+	}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+/*end our basics*/
+/*start above  navbar*/
+.above-nav{
+	background-color:#3e3e3e;
+	height:50px;
+}
+.above-nav i{
+	color:#ffd600;
+	padding-top:15px
+}
+.above-nav p{
+	color:#dcdcdc;
+	display:inline;
+	padding-left:5px;
+}
+.vl{
+	display:inline-block;
+	border-left:1px solid #dcdcdc;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px 
+}
+.img{
+	display:inline-block;
+	}
+.img img{
+	margin-bottom:17px
+}	
+/*start second navbar*/
+
+/*end above navbar */
+
+nav.shrink{
+	height:70px;
+	
+	z-index:999;
+	animation: smoothScroll 1s forwards;
+}
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-50px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+.overlay{
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	opacity:1;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.dropdown-menu{
+	left:0 !important;
+	width:265px !important;
+	top:75px !important;
+}
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+      top: 0;
+      width: 100%;
+}
+/*start carousel caption */
+.carousel-caption{
+ }
+.carousel-caption h1{
+	color:#fff;	
+	}
+.carousel-caption p{
+	color:#fff;
+}
+/*end carousel caption*/
+/*start carousel indicators */
+.carousel-indicators .active   {
+	background-color:#ffd600;
+	border:#ffd600
+}
+.carousel-indicators li {
+   border: 1px solid #fff;
+   background-color:#fff
+ }
+/*end carousel indicators */
+/*start carousel control*/
+.carousel .carousel-control{
+	visibility:hidden;
+	background:none;
+}
+.carousel-control {
+text-shadow: none;
+opacity: 1;
+filter: alpha(opacity=100)
+}
+.carousel-control:hover, .carousel-control:focus {
+opacity: 1;
+filter: alpha(opacity=100)
+}
+.carousel .left.carousel-control .glyphicon-chevron-left,
+.carousel .right.carousel-control .glyphicon-chevron-right
+{
+	background-color:#ffd600;
+	color:#fff;
+	border:5px solid #ffd600;
+	border-radius:50px;
+	font-size:20px;
+}
+.carousel:hover .left.carousel-control{
+	visibility:visible;
+	background-color:none;
+	animation:carousel-left 1s forwards
+}
+.carousel:hover .right.carousel-control{
+	visibility:visible;
+	background-color:none;
+	animation:carousel-right 1s forwards
+}
+@keyframes carousel-left{
+	0%{
+		transform: translateX(-80px)
+	}
+	100%{
+		transform: translateX(20px)
+		}
+}
+@keyframes carousel-right{
+	0%{
+		transform: translateX(0px)
+	}
+	100%{
+		transform: translateX(-30px)
+		}
+}
+/*end carousel control */		
+/*end second navbar */
+/*start our history */
+
+.history{
+		padding-top:200px;
+
+}
+h2  {
+	
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+	}
+
+h2:after{
+	content:"";
+	display: block; /* This will put the pseudo element on its own line. */
+    width:6%; /* Change this to whatever width you want. */
+    padding-top: 5px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #ffd600; /* This creates the border. Replace black with whatever color you want. */
+	margin-left:470px
+}
+p{
+	
+}
+/*end oour history*/
+/*start our project*/
+.pro{
+	padding-top:200px;
+}
+h3{
+	text-align:center;
+	
+}
+
+
+/*end our project*/
+/* start responsive mobile */
+.icon{
+		color:#fff;
+		padding-left:5px;
+		padding-top:20px
+}
+/* end responsive mobile */
+
+
+
