@@ -9,27 +9,43 @@ body{
 }
 /*end our basics*/
 
-/*start above  navbar*/
-
+/*sta.above-navrt above  navbar*/
 .above-nav{
 	background-color:#3e3e3e;
 	height:50px;
 	padding-right:70px;
-	
+	overflow:hidden;
 }
 .above-nav i{
 	color:#ffd600;
 	padding-top:15px
 }
-.above-nav p{
-	color:#dcdcdc;
-	display:inline;
+.location{
+	float:right;
+	width:45%
+}
+.location ,p,span{
+	margin-right:10px;
+}
+.number{
+	float:right;
+	width:45%;
+}
+.number i{
+	padding-top:23px;
+}
+.num{
+	color:#fff;
+}
+.loc a{
+	color:#fff;
 	padding-left:5px;
 }
 .vl{
-	display:inline-block;
-	border-left:1px solid #dcdcdc;
-	padding-top:10px 
+	display:inline;
+	border-left:2px solid #7d7d7d;
+	padding-top:10px;
+	padding-right:30px;
 }
 
 /*start second navbar*/
@@ -281,31 +297,17 @@ nav.shrink{
 	margin-top:100px;
 	background-color:#D5DBDB;
 }
-.hdiv{
-	
-	width:100%;
-}
-.writing{
-	float:right;
-	
-}
-
 .history h2{
 	
 	padding-top:40px;
 	font-weight:bold;
-	text-transform:uppercase
-	}
-.history h2:after{
-	content:"";
-	display: block; /* This will put the pseudo element on its own line. */
-    width:3%; /* Change this to whatever width you want. */
-    padding-top: 5px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #ffd600; /* This creates the border. Replace black with whatever color you want. */
+	text-transform:uppercase;
+	padding-right:12px;
 }
 .history p{
 	font-size:18px;
 	margin-top:20px;
+	font-weight:bold;
 }
 /*end oour history*/
 /*start our project*/
@@ -387,22 +389,14 @@ nav.shrink{
 /*end our project*/
 /*end our working*/
 .working{
-	background-color:#DCDCDC;
+	background-color:#D5DBDB;
 	margin-bottom:80px;
 	width:100%
 }
 .working h2{
 	padding-top:40px;
 	font-weight:bold;
-	padding-bottom:40px;
-	color:#2F4F4F;
-}
-.working h2:after{
-	content:"";
-	display: block; /* This will put the pseudo element on its own line. */
-    width:4%; /* Change this to whatever width you want. */
-    padding-top: 5px; /* This creates some space between the element and the border. */
-    border-bottom: 2px solid #ffd600; /* This creates the border. Replace black with whatever color you want. */
+	color:#000;
 }
 .contentworking{
 	width:33%;
@@ -413,18 +407,19 @@ nav.shrink{
 	margin:0;
 	padding-right:0;
 	padding-bottom:40px;
+	padding-top:10px;
 }
 .contentworking li{
 	font-size:18px;
-	color:#2F4F4F;
+	color:#000;
 	font-weight:bold;
+
 
 }
 /*end our working*/
 
 /*start our contact*/
 .footer{
-	height:300px;
 	background-color:#2d2d2d;
 }
 .contactus{
@@ -455,7 +450,6 @@ nav.shrink{
 	margin-top:30px;
 }
 .contactus2 a{
-	text-decoration:none;
 	color:#ffd600;
 	cursor:pointer;
 	font-size:18px;
@@ -472,27 +466,43 @@ nav.shrink{
 	font-size:18px;
 	color:#ffd600;
 	cursor:default;
-	margin-left:60px;
 }
 .vl2{
 	padding-right:10px;
+	padding-left:30px;
 	border-left:2px solid #fff;
 	margin-top:150px;
 }
 
 .contactbottom{
 	overflow:hidden;
-		padding-top:30px;
+	padding-top:30px;
+	margin-right:90px;
 
 }
 .contact1{
-	width:30%;
+	width:50%;
 	float:right;
-	color:#6d6d6d;	
-	margin-right:30px;
-	margin-left:30px;
+	color:#fff;
 }
-
+.contact2{
+	width:50%;
+	float:left;
+	color:#fff;
+}
+.contact1 span{font-size:20px;}
+.contact2 span a{
+	color:#fff;
+	font-size:20px;
+}
+.contact2 i{
+	color:#ffd600;
+	padding-right:10px;
+}
+.copyright{
+	background-color:#000;
+	margin-top:30px;
+}
 /*end our contact*/
 
 /* start responsive mobile */
