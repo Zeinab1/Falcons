@@ -47,18 +47,14 @@ body{
 .dropdown-menu li a{font-size:17px;}
 }
 @media (min-width:300px) and (max-width:400px){
-.dropdown-menu{
-		width:100px !important;
-}
+.dropdown-menu{width:100px !important;}
 .dropdown-menu li a{
 	font-size:10px;
-	color:red !important;
+	color:#000 !important;
 	}
 }
 @media (min-width:200px) and (max-width:300px){
-.dropdown-menu{
-		width:50px !important;
-}
+.dropdown-menu{width:50px !important;}
 .dropdown-menu li a{
 	font-size:10px;
 	color:#000 !important;
