@@ -7,7 +7,8 @@ body{
 }
 /*end our basics*/
 /* start responsive mobile */
-.navbar-inverse{
+@media (min-width:200px){
+.navbar{
 	background-color:#fff;
 }
 .navbar-header a{
@@ -31,28 +32,27 @@ body{
 		right:0px !important;
 		left:0 !important;
 		width:300px !important;
-		background-color: rgba(0, 0, 0, 0.9); 
 		border-radius:0px !important;
-}
-.dropdown-menu li{
-	
 }
 .dropdown-menu li a{
 		float:right !important;
-		color:#fff;
+		color:#ffd600;
 		font-size:20px;
 }
-@media (min-width:200px){
+}
+@media (min-width:300px){
 .dropdown-menu{
 		width:100px !important;
 }
-.dropdown-menu li a{font-size:14px;}
+.dropdown-menu li a{
+	font-size:14px;
+	}
 }
 /* end responsive mobile */
 
 
 /*start above-navrt */
-@media (min-width:768px){
+@media (min-width:768px) {
 .above-nav{
 	background-color:#3e3e3e;
 	height:50px;
@@ -148,7 +148,6 @@ nav i{
 .nav li a{color:#000 !important;}
 nav.shrink{
 	height:80px;
-	border-bottom:2px solid #000;
 	position:fixed !important;
 	z-index:999;
 	margin-left:0;
