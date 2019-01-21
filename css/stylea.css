@@ -366,7 +366,6 @@ filter: alpha(opacity=100)
 }
 }
 @media (min-width:300px)  {
-.toprow{margin-right:10px;}
 .repair{
 	margin-left:5px;
 	margin-bottom:5px;
