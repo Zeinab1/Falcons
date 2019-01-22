@@ -697,19 +697,18 @@ filter: alpha(opacity=100)
 .over4{width:300px; height:250px;}
 } 	
 }
-    
 /*end our project*/
 /*end our working*/
-
-.working{
+.work{
 	background-color:#D5DBDB;
 	margin-bottom:80px;
-	width:100%
+	overflow:hidden;
 }
-.working h2{
+.work h2{
 	padding-top:40px;
 	font-weight:bold;
 	color:#000;
+	text-align:center;
 }
 .contentworking{
 	width:33%;
