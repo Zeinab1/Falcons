@@ -359,29 +359,32 @@ filter: alpha(opacity=100)
 }
 }
 @media (min-width:300px)  {
-.repair{margin-bottom:3px; margin-left:3px;}
 .repair img{
-	width:87px;
+	width:80px;
 	height:100px;
 }
+.repair{margin-bottom:3px;}
 .repair h6{font-size:11px;}
 .repair i{font-size:15px;}
-.over2{width:87px; padding-top:15px;}
-.over{width:87px; padding-top:15px;}
+.over2{width:80px; padding-top:15px;}
+.over{width:80px; padding-top:15px;}
 }
-@media (min-width:340px) and (max-width:370px)
+@media (min-width:330px) and (max-width:350px)
 {
-.repair{margin-bottom:15px; margin-right:10px; }
+.repair{margin-bottom:3px;}
+.toprow{margin-right:30px;}
+}
+@media (min-width:351px) and (max-width:370px)
+{
+.repair{margin-bottom:5px;}
+.toprow{margin-right:30px;}
 }
 @media (min-width:371px) and (max-width:400px){
-.repair{margin-bottom:20px;}
+.repair{margin-bottom:15px;}
+.toprow{margin-right:30px;}
 }
 @media (min-width:401px){
-.repair{
-	margin-left:5px;
-	margin-bottom:8px;
-	margin-right:5px;
-	}
+.repair{margin-bottom:4px;}
 .repair img{
 	width:110px;
 	height:110px;
@@ -528,8 +531,8 @@ filter: alpha(opacity=100)
 }
 }
 @media (min-width:320px) and (max-width:766px){
-.history h2{font-size:25px; text-align:center}
-.history p{font-size:17px;}
+.history h2{font-size:18px; text-align:center}
+.history p{font-size:11px;}
 }
 @media (min-width:767px) and (max-width:991px){
 .history h2{font-size:30px; text-align:center;}
