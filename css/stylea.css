@@ -362,7 +362,7 @@ filter: alpha(opacity=100)
 	width:80px;
 	height:100px;
 }
-.repair{margin-bottom:6px;}
+.repair{margin-bottom:8px;}
 .repair h6{font-size:11px;}
 .repair i{font-size:15px;}
 .over2{width:80px; padding-top:15px;}
@@ -370,7 +370,7 @@ filter: alpha(opacity=100)
 }
 @media (min-width:330px) and (max-width:350px)
 {
-.repair{margin-bottom:3px;}
+.repair{margin-bottom:5px;}
 .toprow{margin-right:30px;}
 }
 @media (min-width:351px) and (max-width:360px)
