@@ -371,7 +371,7 @@ filter: alpha(opacity=100)
 }
 @media (min-width:340px) and (max-width:370px)
 {
-.repair{margin-bottom:10px; }
+.repair{margin-bottom:15px; margin-right:10px; }
 }
 @media (min-width:371px) and (max-width:400px){
 .repair{margin-bottom:20px;}
